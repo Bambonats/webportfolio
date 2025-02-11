@@ -1,0 +1,69 @@
+/*CSS Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	font-family: 'Source Sans 3', sans-serif !important;
+}
+
+#landing p {
+    font-size: 1.5rem;
+
+    font-weight: lighter;
+}
+
+#my-name {
+    font-weight: 900;
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+
+#home-logo {
+    background: url('./images/cat_logo_hover3.png') no-repeat -1px -33px;
+    width: 61px;
+    height: 31px;
+}
+
+
+#home-logo:hover {
+    background: url('./images/cat_logo_hover3.png') no-repeat -1px 0;
+}
+
+#hero-image {
+    max-height: 300px;
+    max-width: 300px;
+}
+
+
+#my-role {
+    font-weight: 500;
+}
+
+#landing {
+    height: 100vh;
+    width: 100vw;
+}
+
+#contact-me {
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 20px 0 0 20px;
+}
+
+#contact-me-form {
+    background-color: #F4EDD3;
+    color: ;
+    border-radius: 0 20px 20px 0;
+}
+
+.card p {
+    font-weight: lighter;
+    font-size: 0.9rem;
+}
+
+.card-title {
+    font-weight: normal;
+}
