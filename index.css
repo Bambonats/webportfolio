@@ -33,8 +33,11 @@ body {
 }
 
 #hero-image {
-    max-height: 300px;
-    max-width: 300px;
+    background: url(./images/Bambo_icon3.png)  no-repeat 0 -540px;
+}
+
+#hero-image:hover {
+    background: url('images/Bambo_icon3.png') no-repeat 0 -20px;
 }
 
 
@@ -59,6 +62,10 @@ body {
     border-radius: 0 20px 20px 0;
 }
 
+div.card {
+    width: 18rem;
+}
+
 .card p {
     font-weight: lighter;
     font-size: 0.9rem;
@@ -67,3 +74,19 @@ body {
 .card-title {
     font-weight: normal;
 }
+
+.tool-icon {
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.tool-text {
+    font-weight: normal;
+    font-size: 0.7rem;
+}
+
+.header-text {
+    font-weight: 600;
+}
+
+

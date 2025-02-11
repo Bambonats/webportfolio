@@ -22,14 +22,15 @@
 			<a href="#landing" class="navbar-brand me-auto row">
 				<img src="./images/blank.png" id="home-logo" class="img-fluid">
 			</a>
+			<a href="#about" class=" text-decoration-none link-light">About</a>
+			<a href="#tools" class=" text-decoration-none link-light">Tools</a>
 			<a href="#projects" class=" text-decoration-none link-light">Projects</a>
-			<a href="#tools" class=" text-decoration-none link-light">About</a>
 			<a href="#contact" class="text-decoration-none link-light">Contact</a>
 		</nav>
 		<!-- Landing -->
 		<div id="landing" class="bg-secondary d-flex justify-content-center align-items-center continer-fluid">
 			<div class= "text-light ">
-				<img src="./images/joseph_logo.jpeg" alt="Joseph's Image" class="rounded-circle img-fluid mx-auto d-block" id="hero-image">
+				<img src="./images/joseph_logo_blank.png" alt="Joseph's Image" class="rounded-circle img-fluid mx-auto d-block" id="hero-image">
 				<div class=" text-center align-self-center">
 					<h1 id="my-name" class="pt-4">Hey, I'm Joseph Gerundo</h1>
 					<p>A Full Stack Developer dedicated to building efficient and scalable web applications that enhance functionality, user experience, and overall project success.</p>
@@ -38,9 +39,9 @@
 			</div>	
 		</div>
 
-		<!-- Tools -->
-		<div id="tools" class="container p-4">
-			<h1 class="text-center mt-4">About me</h1>
+		<!-- About -->
+		<div id="about" class="container p-4 ">
+			<h1 class="text-center mt-4  header-text">About me</h1>
 			<p class="text-center">Here's a quick overview of what I do, and my current skills as a Full Stack Developer.</p>
 
 			<hr class="container">
@@ -64,30 +65,46 @@
 									<button type="button" class="btn btn-secondary my-1" disabled>CSS</button>
 									<button type="button" class="btn btn-secondary my-1" disabled>Git</button>
 									<button type="button" class="btn btn-secondary my-1" disabled>Bootstrap</button>
-								</div>
-								<div class="col d-grid gap-2 d-md-block">
-									<h3>Tools</h3>
-									<button type="button" class="btn btn-secondary my-1" disabled>Sublime Text</button>
-									<button type="button" class="btn btn-secondary my-1" disabled>Trello</button>
-									<button type="button" class="btn btn-secondary my-1" disabled>SourceTree</button>
-								</div>
-								
+								</div>	
 							</div>
 					</div>
 				</div>
-				
+			</div>
+		</div>
 
-
+		<!-- Tools -->
+		<div id="tools" class="container">
+			<div class="d-flex	justify-content-center">
+				<div class="gap-3 d-md-block">
+					<h1 class="text-center mt-4 header-text">Tools</h1>
+					<!-- <button type="button" class="btn btn-secondary my-1" disabled>Sublime Text</button>
+					<button type="button" class="btn btn-secondary my-1" disabled>Trello</button>
+					<button type="button" class="btn btn-secondary my-1" disabled>SourceTree</button> -->
+					<div class="d-flex">	
+						<div>
+							<img src="./images/sublime.png" class="tool-icon mx-3">
+							<p class="text-center tool-text">Sublime Text</p>
+						</div>
+						<div>
+							<img src="./images/trello.png" class="tool-icon mx-3">
+							<p class="text-center tool-text">Trello</p>
+						</div>
+						<div>	
+							<img src="./images/github-logo.png" class="tool-icon mx-3">
+							<p class="text-center tool-text">Sublime Text</p>
+						</div>
+					</div>
+				</div>	
 			</div>
 		</div>
 
 		<!-- Projects -->
 		<div id="projects" class="p-5">
-			<h1 class="text-center">My Projects</h1>
+			<h1 class="text-center header-text">My Projects</h1>
 			<div class="container d-flex justify-content-center">
 				<div class="row">
 					<!-- Card 1 -->
-					<div class="card col-4 m-3" style="width: 18rem;">
+					<div class="card col-4 m-3">
 					  <img src="https://static.wixstatic.com/media/ac8fff_fc61d0df08d64970af04bf42a8d0ca8a~mv2.png/v1/crop/x_0,y_113,w_477,h_598/fill/w_322,h_404,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Tear%20of%20the%20Forest_Poster.png" class="card-img-top" alt="...">
 					  <div class="card-body">
 					    <h5 class="card-title text-center">Tear of the Forest</h5>
@@ -96,7 +113,7 @@
 					</div>
 
 					<!-- Card 2 -->
-					<div class="card col-4 m-3" style="width: 18rem;">
+					<div class="card col-4 m-3">
 					  <img src="https://static.wixstatic.com/media/ac8fff_2217947511644b539c765c257316cc64~mv2.png/v1/crop/x_157,y_0,w_704,h_883/fill/w_322,h_404,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/5d0991f7ae696-frzx3r5n.png" class="card-img-top" alt="...">
 					  <div class="card-body">
 					    <h5 class="card-title text-center">When Spring Came</h5>
@@ -105,7 +122,7 @@
 					</div>
 
 					<!-- Card 3 -->
-					<div class="card col-4 m-3" style="width: 18rem;">
+					<div class="card col-4 m-3">
 					  <img src="https://static.wixstatic.com/media/ac8fff_f20d0887f4334bbca1d02aeee0dc2652~mv2.jpg/v1/crop/x_185,y_0,w_861,h_1080/fill/w_322,h_404,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ss_8e45078710269f12e4adce6aa4d0ed4b3dfc3254_1920x1080.jpg" class="card-img-top" alt="...">
 					  <div class="card-body">
 					    <h5 class="card-title text-center">Goblin Stone</h5>
@@ -120,49 +137,52 @@
 
 		<!-- Contact -->
 		<div id="contact" class="p-5">
-			<h1 class="text-center">Contact</h1>
+			<h1 class="text-center header-text">Contact</h1>
 			<div class="container">
 				<div class="row">
 					<div class="col-4">
 						<img src="./images/contact-me.png" id="contact-me" class="img-fluid">
 					</div>
 					<div class="col-8" id="contact-me-form">
-						<!-- <h3 class="text-center">Send me a message</h3> -->
-						<div class="my-3">
-							<label for="full_name" class="form-label">Your Name</label>
-						 	<input type="text" class="form-control" id="full_name" placeholder="First and Last Name">
-						</div>
-						<div class="mb-3">
-						 	<label for="email_address" class="form-label">Email Address</label>
-						 	<input type="email" class="form-control" id="email_address" placeholder="name@example.com">
-						</div>
-						<div class="mb-3">
-						  <label for="contact_message" class="form-label">Your message</label>
-						  <textarea class="form-control" id="contact_message" rows="8"></textarea>
-						</div>
+						<form>
+							<!-- <h3 class="text-center">Send me a message</h3> -->
+							<div class="my-3">
+								<label for="full_name" class="form-label">Your Name</label>
+							 	<input type="text" class="form-control" id="full_name" placeholder="First and Last Name">
+							</div>
+							<div class="mb-3">
+							 	<label for="email_address" class="form-label">Email Address</label>
+							 	<input type="email" class="form-control" id="email_address" placeholder="name@example.com">
+							</div>
+							<div class="mb-3">
+							  <label for="contact_message" class="form-label">Your message</label>
+							  <textarea class="form-control" id="contact_message" rows="8"></textarea>
+							</div>
 
-						<!-- Button trigger modal -->
-						<button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#submit">
-						  Send message
-						</button>
+							<!-- Button trigger modal -->
+							<button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#submit">
+							  Send message
+							</button>
 
-						<!-- Modal -->
-						<div class="modal fade" id="submit" tabindex="-1" aria-labelledby="thankyou-modal" aria-hidden="true">
-						  <div class="modal-dialog">
-						    <div class="modal-content">
-						      <div class="modal-header">
-						        <h5 class="modal-title" id="thankyou-modal">Thank you!</h5>
-						        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-						      </div>
-						      <div class="modal-body">
-						        <img src="./images/blank.png" id="home-logo" class="mx-3"> I look forward to getting in touch with you!
-						      </div>
-						      <div class="modal-footer">
-						        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Dismiss</button>
-						      </div>
-						    </div>
-						  </div>
-						</div>		
+							<!-- Modal -->
+							<div class="modal fade" id="submit" tabindex="-1" aria-labelledby="thankyou-modal" aria-hidden="true">
+							  <div class="modal-dialog">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <h5 class="modal-title" id="thankyou-modal">Thank you!</h5>
+							        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							      </div>
+							      <div class="modal-body">
+							        <img src="./images/blank.png" id="home-logo" class="mx-3"> I look forward to getting in touch with you!
+							      </div>
+							      <div class="modal-footer">
+							        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Dismiss</button>
+							      </div>
+							    </div>
+							  </div>
+							</div>		
+						</form>
+					</div>
 				</div>
 			</div>
 		</div>
