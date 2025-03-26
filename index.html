@@ -18,23 +18,38 @@
 </head>
 <body>
 	<main>
-		<nav class="navbar bg-dark sticky-top d-flex flex-row d-grid gap-5 p-1 px-3">
-			<a href="#landing" class="navbar-brand me-auto row">
-				<img src="./images/blank.png" id="home-logo" class="img-fluid">
-			</a>
-			<a href="#about" class=" text-decoration-none link-light">About</a>
-			<a href="#tools" class=" text-decoration-none link-light">Tools</a>
-			<a href="#projects" class=" text-decoration-none link-light">Projects</a>
-			<a href="#contact" class="text-decoration-none link-light">Contact</a>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+		    <div class="container-fluid">
+		        <!-- Logo -->
+		        <a href="#landing" class="navbar-brand">
+		            <img src="./images/blank.png" id="home-logo" class="img-fluid">
+		        </a>
+
+		        <!-- Hamburger Button -->
+		        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+		            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		            <span class="navbar-toggler-icon"></span>
+		        </button>
+
+		        <!-- Collapsible Navbar -->
+		        <div class="collapse navbar-collapse" id="navbarNav">
+		            <ul class="navbar-nav ms-auto">
+		                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+		                <li class="nav-item"><a class="nav-link" href="#tools">Tools</a></li>
+		                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+		                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+		            </ul>
+		        </div>
+		    </div>
 		</nav>
 		<!-- Landing -->
 		<div id="landing" class="bg-secondary d-flex justify-content-center align-items-center continer-fluid">
 			<div class= "text-light ">
 				<img src="./images/joseph_logo_blank.png" alt="Joseph's Image" class="rounded-circle img-fluid mx-auto d-block" id="hero-image">
 				<div class=" text-center align-self-center">
-					<h1 id="my-name" class="pt-4">Hey, I'm Joseph Gerundo</h1>
+					<h1 id="my-name" class="pt-4 display-1 display-md-3 display-lg-4">Hey, I'm Joseph Gerundo</h1>
 					<p>A Full Stack Developer dedicated to building efficient and scalable web applications that enhance functionality, user experience, and overall project success.</p>
-					<a class="btn btn-success btn-lg mt-5 px-5 " href="#projects" role="button">Projects</a>
+					<a class="btn btn-success btn-lg mt-5 px-5 fs-1 fs-md-3 fs-lg-5" href="#projects" role="button">Projects</a>
 				</div>
 			</div>	
 		</div>
@@ -141,7 +156,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-4">
-						<img src="./images/contact-me.png" id="contact-me" class="img-fluid">
+						<img src="./images/contact-me.png" id="contact-me" class="img-fluid d-block mx-auto">
 					</div>
 					<div class="col-8" id="contact-me-form">
 						<form>

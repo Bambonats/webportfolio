@@ -5,13 +5,19 @@
     box-sizing: border-box;
 }
 
-body {
+html, body {
 	font-family: 'Source Sans 3', sans-serif !important;
+    overflow-x: hidden;
+}
+
+#landing {
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
 }
 
 #landing p {
     font-size: 1.5rem;
-
     font-weight: lighter;
 }
 
@@ -30,6 +36,11 @@ body {
 
 #home-logo:hover {
     background: url('./images/cat_logo_hover3.png') no-repeat -1px 0;
+    max-height: 300px; /* Maintains height */
+    width: auto; /* Allows width to adjust */
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s ease-in-out;
 }
 
 #hero-image {
@@ -38,6 +49,7 @@ body {
 
 #hero-image:hover {
     background: url('images/Bambo_icon3.png') no-repeat 0 -20px;
+    transform: scale(1.1); /* Slightly increase size on hover */
 }
 
 
@@ -58,7 +70,7 @@ body {
 
 #contact-me-form {
     background-color: #F4EDD3;
-    color: ;
+   /* color: ;*/
     border-radius: 0 20px 20px 0;
 }
 
@@ -89,4 +101,16 @@ div.card {
     font-weight: 600;
 }
 
+/* Adjust for smaller screens */
+@media (max-width: 768px) {
+    #hero-image {
+        max-height: 200px; /* Reduce height for smaller screens */
+    }
+}
 
+@media (max-width: 480px) {
+    #hero-image {
+        max-height: 150px; /* Even smaller on mobile */
+        transform: none; /* Disable hover zoom on very small screens */
+    }
+}
