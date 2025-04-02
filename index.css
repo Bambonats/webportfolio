@@ -45,13 +45,13 @@ html, body {
 
 #hero-image {
     background: url(./images/Bambo_icon3.png)  no-repeat 0 -540px;
+    
 }
 
 #hero-image:hover {
     background: url('images/Bambo_icon3.png') no-repeat 0 -20px;
-    transform: scale(1.1); /* Slightly increase size on hover */
+    transform: scale(1.1); 
 }
-
 
 #my-role {
     font-weight: 500;
@@ -114,3 +114,4 @@ div.card {
         transform: none; /* Disable hover zoom on very small screens */
     }
 }
+
